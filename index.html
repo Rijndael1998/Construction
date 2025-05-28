@@ -11,7 +11,7 @@
             font-family: mono;
             src: url("font.ttf");
         }
-        
+
         body,
         html {
             margin: 0;
@@ -50,12 +50,18 @@
         }
 
         /* lol */
-        p, li, h1, h2 {
+        p,
+        li,
+        h1,
+        h2 {
             transition: all 0.2s ease;
             filter: brightness(100%) grayscale(0);
         }
 
-        p:hover, li:hover, h1:hover, h2:hover {
+        p:hover,
+        li:hover,
+        h1:hover,
+        h2:hover {
             filter: brightness(300%) grayscale(1);
         }
 
@@ -85,7 +91,7 @@
             justify-content: space-between;
         }
 
-        .td > * {
+        .td>* {
             margin: auto 0;
         }
 
@@ -105,7 +111,7 @@
                 <h2>Sorry...</h2>
                 <p class="sm">2025-05-31</p>
             </div>
-            
+
             <p>I'm moving my servers to a new backend. For now, I have this page up. I'm replacing Debian Apache server
                 with NixOS Nginx. I should be done by 2025-08-01. (I hope!)</p>
             <p>Should there be complications, there will be updates on this page with timestamps provided.</p>
